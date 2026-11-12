@@ -1,0 +1,9 @@
+target/
+*.class
+*.db
+*.sqlite
+*.sqlite3
+nbproject/private/
+.idea/
+.vscode/
+.DS_Store
