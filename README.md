@@ -1,41 +1,39 @@
+Sistema de Biblioteca
 
-Sistema de gestión de una biblioteca desarrollado en Java, utilizando Maven, SQLite y JDBC.
 
-Permite registrar, consultar, actualizar y eliminar autores y libros.
+- Nombre: Fernando Josué Vargas Gonzales
+- Número de cuenta: 202530110097
+- Asignatura: Programación Orientada a Objetos
 
-- Java JDK 17
-- Apache NetBeans
+Descripción del proyecto
+
+Sistema de gestión de biblioteca desarrollado en Java, utilizando Maven y SQLite.
+
+El sistema permite administrar autores y libros mediante operaciones CRUD (crear, consultar, actualizar y eliminar).
+
+Tecnologías utilizadas
+
+- Java
 - Maven
 - SQLite
 - JDBC
+- NetBeans
 
-- Registrar autores.
-- Listar autores.
-- Buscar autores por ID.
-- Actualizar autores.
-- Eliminar autores.
-- Registrar libros.
-- Listar libros.
-- Buscar libros por ID.
-- Actualizar libros.
-- Eliminar libros.
-- Consultar libros por autor.
-- Validar ISBN, precio y año de publicación.
+Estructura del proyecto
 
-Nombre: biblioteca.db
-
-Tablas:
-- autores
-- libros
-
-Script SQL: src/main/resources/biblioteca.sql
-
-1. Abrir el proyecto Biblioteca en NetBeans.
-2. Esperar a que Maven descargue las dependencias.
-3. Ejecutar la clase Main.java.
-4. Utilizar el menú de consola.
+- `app`: contiene la clase principal.
+- `dao`: contiene las interfaces de acceso a datos y conexión.
+- `dao/impl`: contiene las implementaciones de acceso a datos.
+- `modelo`: contiene las clases Autor y Libro.
+- `servicio`: contiene la lógica del sistema.
+- `excepciones`: contiene las excepciones personalizadas.
+- `src/main/resources`: contiene el archivo SQL de la base de datos.
 
 
-Nombre: ESCRIBA AQUÍ SU NOMBRE COMPLETO
+El proyecto utiliza SQLite mediante JDBC.
 
-Número de cuenta: ESCRIBA AQUÍ SU NÚMERO DE CUENTA
+El archivo `biblioteca.sql` contiene las instrucciones SQL para crear las tablas necesarias.
+
+
+Proyecto disponible en GitHub:
+https://github.com/fernandojvargas08-dotcom/Biblioteca
